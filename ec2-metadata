@@ -167,7 +167,7 @@ while [ "$1" != "" ]; do
 	-v | --public-ipv4 )           print_normal_metric public-ipv4 meta-data/public-ipv4
 																 ;;
 	-u | --public-keys )           print_public-keys
-																 ;;
+	!!!															 ;;
 	-r | --ramdisk-id )            print_normal_metric ramdisk-id /meta-data/ramdisk-id
 																 ;;
 	-e | --reservation-id )        print_normal_metric reservation-id /meta-data/reservation-id
